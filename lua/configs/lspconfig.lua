@@ -7,12 +7,10 @@ local lspconfig = require "lspconfig"
 -- list of all servers configured.
 lspconfig.servers = {
   "lua_ls",
-  -- "clangd",
   "gopls",
   "ts_ls",
-  -- "hls",
-  -- "ols",
-  -- "pyright",
+  "tailwindcss",
+  "eslint",
 }
 
 -- list of servers configured with default config.
