@@ -79,4 +79,15 @@ return {
       require "configs.lazy-git"
     end,
   },
+  {
+    "folke/noice.nvim",
+    event = "VeryLazy",
+    opts = {
+      -- Add your custom options here
+    },
+    dependencies = {
+      "MunifTanjim/nui.nvim",
+      "rcarriga/nvim-notify", -- Optional: for enhanced notifications
+    },
+  },
 }
